@@ -19,9 +19,11 @@ body{
 {
     display: none;
 }
-#menu-area
+aside
 {
-    display: none;
+   position: relative;
+   top:-10rem;   
+   height:0;
 }
 
 
@@ -175,15 +177,15 @@ header.sticky .logo,
         top:0;
         right:0;
         position: fixed;
-        z-index:99;
+        z-index:999;
         display:flex;
     }
 
     .logo-spot  {
       width:70px;
       font-size: 1.5rem;
-      right: 14.2rem;
-      margin-top:4rem;
+      right: 15.2rem;
+      margin-top:6rem;
       color: #FFFF;
       position: fixed;
       
@@ -192,23 +194,23 @@ header.sticky .logo,
         font-size:2rem;
         cursor:pointer;
         color:#fff;
-        top:10px;
-        right:10px;
+        margin-top:16px;
+        margin-right:18px;
     }
     #menu-area {
-        width:230px ;
+       width:0 ;
         height:100vh;
-        background: #3b44c2;
+        background: #640a8d;
         overflow-x: hidden;
         overflow-y: auto;
-        transition: all ease 5s;
+        transition:   1s;
         opacity: .5;
     }
     #menu-area ul, #menu-area li {
         padding:0;
         position:relative;
         top:3rem;
-        line-height: 2.5rem;
+        line-height: 2.2rem;
         right: -1.3rem;
     }
 
@@ -217,12 +219,15 @@ header.sticky .logo,
         padding:1rem;
         cursor:pointer;
         color:#fff;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+        opacity: 1;
+        font-weight:bold;
 
     }
     #menu-area li a:hover{
         color:#9298e6;
         text-transform: uppercase;
     }
-
+    
+    
  }

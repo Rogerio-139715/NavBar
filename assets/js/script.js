@@ -8,13 +8,13 @@ window.addEventListener("scroll", function(){
 
 // EVENTO DE CLICK PARA MENU EM DISPOSITIVOS MENORES
 
-function menuToggle() {
+function  menuToggle () {
     let menuArea = document.getElementById('menu-area');
 
-    if(menuArea.style.top == '50rem'){
-        menuArea.style.top = '0rem';
-
+    if(menuArea.style.width == '230px'){
+        menuArea.style.width = '0px';
     }else {
-        menuArea.style.left = '50rem';
+        menuArea.style.width = '230px';
     }
+
 }
