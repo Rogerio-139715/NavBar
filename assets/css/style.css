@@ -191,11 +191,11 @@ header.sticky ul li:hover {
         display: flex;
     }
 
-    .logo-spot {
+    .logoSpot {
         width: 70px;
         font-size: 1.5rem;
-        right: 15.2rem;
-        margin-top: 6rem;
+        left:2rem;
+        top: 6rem;
         color: #FFFF;
         position: fixed;
 
@@ -212,7 +212,7 @@ header.sticky ul li:hover {
     #menu-area {
         width: 0;
         height: 100vh;
-        background: #13021b;
+        background: #25063f;
         overflow-x: hidden;
         overflow-y: auto;
         transition: 1s;

@@ -17,3 +17,15 @@ function menuToggle() {
     }
 
 }
+
+// EVENTO FADEIN - FADEOUT  VIA JQUERY
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 450){
+            $('.logoSpot').fadeOut();
+        } else {
+            $('.logoSpot').fadeIn();
+        }
+    });
+});

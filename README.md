@@ -10,3 +10,7 @@
 
 - :package: menu aside finalizado 
 - :zap: implementação da ação de click no menu-opener
+
+##  FADEIN/FADEOUT DA LOGO 
+
+- :package: fadeIn e fadeOut logo para mobile
